@@ -35,6 +35,23 @@ now we restart the dhcp service and check it's status like so
 
 ![dhcp systemctl status](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/03b4f234-4e38-41e1-8199-f934da840caf)
 
+4. Install and configure DNS server on server1, so Hostnames are resolved to IP Addresses.
+
+  to install and configure dns we will first have to install dns i used sudo apt install -y bind9 bind9-utils
+  then we have to change a few files like this one /etc/bind/named.conf.local
+  our file should look like so
+
+  ![dns config](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/2121cf58-6746-4893-9196-43f7023e5488)
+
+  then we create the forward zones like so  /etc/bind/server1.ddp.is.db and same for the reverse lookup our config files should look like so
+
+  ![dns config server1](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/6c4b9738-0c2f-4ab6-948f-ba6fdadd5636)
+
+  and our reverse zone file
+
+  ![reverse dns server1](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/19470889-dd66-42e3-b436-51231f252f13)
+
+
 
 
 
