@@ -22,3 +22,19 @@ next step is to do the command netplan apply and reboot when we are back on our 
 3. Install and configure DHCP on server1, so both clients get an IP Addresses, Gateway, DNS 
 IP address and domain name automatically via DHCP
 
+first thing we need to do is sudo apt install isc-dhcp-server next step will be to edit the dhcp config file
+we can do so with vim /etc/dhcp/dhcp.conf and create a subnet like so
+
+![Screenshot from 2023-10-04 12-49-14](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/14986954-8557-40ae-b794-fbad4742a8e2)
+
+next what we do is specify what interface we want this dhcp to be allocated to and we put it as ens37 like so
+
+![Screenshot from 2023-10-12 14-16-14](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/349bf214-4d5e-4e8f-b550-02932df8d0bc)
+
+now we restart the dhcp service and check it's status like so
+
+![dhcp systemctl status](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/03b4f234-4e38-41e1-8199-f934da840caf)
+
+
+
+
