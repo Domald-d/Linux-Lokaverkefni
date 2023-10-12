@@ -69,7 +69,28 @@ now we restart the dhcp service and check it's status like so
 
   ![Screenshot from 2023-10-07 23-29-33](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/3ff113c7-70f2-4084-afbe-5dc3e30eb9a6)
 
+  6. Install and configure MySQL on server1 and create Human Resource database.
+
+     first we install the mysql server like so sudo apt install mysql-server
+     then we need to get into the mysql like so mysql -u root -p
+     when we are in the mysql terminal we can do show databases; to see our databases like so and create our new database
+     like this create database Human_Resources; and we will be able to see the database like so
+
+     ![Screenshot from 2023-10-07 23-30-56](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/48f070cf-de56-4e13-990a-322a2aa0706a)
+
+     now we create the tables like so  after we do the command use Human_Resources;
+     CREATE TABLE Employees (kennitala etc) and we can see our tables like so
+
+     ![Screenshot from 2023-10-12 14-50-30](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/f5336cce-3ef8-4077-bf6e-15d5d8b948ba)
+
+     to see in our tables we can issue the command Describe Table name like so
+     
+     ![Screenshot from 2023-10-12 14-52-08](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/17d92de9-2d64-4a7a-9257-b115a0655841)
 
 
+     
+
+
+     
 
 
