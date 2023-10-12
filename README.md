@@ -55,6 +55,21 @@ now we restart the dhcp service and check it's status like so
 
   ![Screenshot from 2023-10-12 14-33-01](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/b931e827-b905-4fb6-8375-cb23091a9899)
 
+5. Create the users accounts using a script, see the Users file
+
+   i created a very simple and basic bash script for this here's my code for it
+
+    ![Screenshot from 2023-10-12 14-37-02](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/d3004c8b-c76c-4ecd-ba66-84a48fc68b96)
+
+  and as a result our users and groups are created like so
+
+  ![Screenshot from 2023-10-07 23-30-30](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/65ccc1bc-fe7e-4f1e-baf5-d6d34577baad)
+
+  and our groups
+
+  ![Screenshot from 2023-10-07 23-29-33](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/3ff113c7-70f2-4084-afbe-5dc3e30eb9a6)
+
+
 
 
 
