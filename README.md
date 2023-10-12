@@ -51,6 +51,9 @@ now we restart the dhcp service and check it's status like so
 
   ![reverse dns server1](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/19470889-dd66-42e3-b436-51231f252f13)
 
+  and then we can double check it is all running good like so
+
+  ![Screenshot from 2023-10-12 14-33-01](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/b931e827-b905-4fb6-8375-cb23091a9899)
 
 
 
