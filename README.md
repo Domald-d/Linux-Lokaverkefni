@@ -5,3 +5,7 @@ Lokaverkefni fyrir Linux
 we begin by going on the server1 and editing the config files  /etc/hosts and /etc/hostname  there we change the files like this
 
 ![Screenshot 2023-10-12 120026](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/662a2d6c-4c1d-42d2-b26c-e0c2506b862e)
+
+
+2. configure server1 with static IP Address, from the IP Address block 192.168.100.0/24. The 
+server must be configured with the 10th usable IP Address
