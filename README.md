@@ -126,4 +126,15 @@ for proactive management and monitoring.
 
   ![Screenshot 2023-10-13 094505](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/b2206038-f8c9-4d05-8e28-16938081588d)
   
+  and then we can see in our syslog files this
+
+  ![Screenshot from 2023-10-05 14-32-52](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/43d576ee-ab84-49bd-8a23-301210e0cf54)
+
+  ![Screenshot from 2023-10-06 09-37-51](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/2b2626e6-ee1b-435d-9494-fa73c725a6a2)
+
+10. Install and configure Postfix on server1, so users can send and receive emails using Round 
+Cube open-source software
+
+  
+
 
