@@ -115,3 +115,13 @@ synchronize the time of the clients.
 
   ![Screenshot 2023-10-10 144826](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/add824f8-3034-452d-97fb-d48da73a84a6)
 
+9. Install and configure syslog server on server1, server1 should get logs from both the clients 
+for proactive management and monitoring.
+
+  on our server we are going to edit the rsyslog.conf like this
+
+  ![Screenshot from 2023-10-13 09-22-36](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/7e0c87d6-3e2f-42c9-a76a-32cf1bb6d332)
+
+  next what we want to do is edit the rsyslog.conf on our clients like so
+
+
