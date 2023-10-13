@@ -100,6 +100,10 @@ next what we want to do is make our bash back up script that backups every user 
 
 ![Screenshot from 2023-10-13 08-42-48](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/df1e1d54-d857-41f6-b1d5-3ce966f341a1)
 
+8. Install and configure NTP on the server and clients, server1 must be master server to 
+synchronize the time of the clients.
+
+  
 
 
 
