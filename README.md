@@ -180,7 +180,12 @@ use RSA keys instead of the password authentication
   ![Screenshot from 2023-10-09 17-18-21](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/a541f08c-6bee-4c90-b8ab-6f76033d920f)
 
   now on the clients we will install the openssh-client and create a RSA key and do the following
+  ssh-copy-id server1@192.168.100.10
+  and we will get this
+  
+![Screenshot 2023-10-10 144720](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/38515134-3a4f-48fb-8982-cfe4857cb2b5)
 
+    
   
 
 
