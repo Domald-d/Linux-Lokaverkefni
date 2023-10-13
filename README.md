@@ -103,11 +103,10 @@ next what we want to do is make our bash back up script that backups every user 
 8. Install and configure NTP on the server and clients, server1 must be master server to 
 synchronize the time of the clients.
 
+  so the first thing we do is sudo apt install ntp and then we are going to edit the ntp.conf like so
+
+  ![Screenshot from 2023-10-13 09-02-36](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/e2092433-e1a3-466d-9853-1df59e463513)
+
+  and then we are going to change the conf file on the client as well like so
+
   
-
-
-
-
-     
-
-
