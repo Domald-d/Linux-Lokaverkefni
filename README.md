@@ -88,7 +88,19 @@ now we restart the dhcp service and check it's status like so
      ![Screenshot from 2023-10-12 14-52-08](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/17d92de9-2d64-4a7a-9257-b115a0655841)
 
 
-     
+7. Due to data loss the company policy requires taking backups weekly, as system engineer 
+you are required to schedule backups of home directories to run weekly at midnight each 
+Friday
+
+     so first the we are going to do is edit the crontab file like this
+   
+   ![Screenshot from 2023-10-13 08-41-05](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/7826d36b-9380-49f6-a6d1-29ccc9d3ea7d)
+
+next what we want to do is make our bash back up script that backups every user directory on the server here is how that would look like
+
+![Screenshot from 2023-10-13 08-41-05](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/7230a893-3a14-4660-9c0e-aa86817eac01)
+
+
 
 
      
