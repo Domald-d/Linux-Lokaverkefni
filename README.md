@@ -124,4 +124,6 @@ for proactive management and monitoring.
 
   next what we want to do is edit the rsyslog.conf on our clients like so
 
+  ![Screenshot 2023-10-13 094505](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/b2206038-f8c9-4d05-8e28-16938081588d)
+  
 
