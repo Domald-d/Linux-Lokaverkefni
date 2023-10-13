@@ -156,10 +156,35 @@ so first what we do is sudo apt install postfix and set it as server1.ddp.is the
 11. Install and configure shared printers for each group, only users that belong to the group 
 should print only, accept IT and Management groups should print and manage the printers.
 
- 
+ cups should already be installed on our machine but to be sure we can do sudo apt install cups
 
+  next what we need to do is go into the cups interface what we can do there is add printers as an admin like so
 
+  ![Screenshot from 2023-10-13 11-31-38](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/43775ae7-8c84-478f-855f-e7a9b5db4f05)
+
+  and then after that we should have something like this
+
+  ![Screenshot from 2023-10-11 13-24-05](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/2a06f0b8-09f5-4a62-9217-30133ad2e0ca)
+
+  ![Screenshot from 2023-10-08 01-06-54](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/bf7630e4-28f6-4cc6-9819-27800676919e)
+
+  now what we need to do is add the permissions to the printers like this so each group/department can print from their printers
+
+  ![Screenshot from 2023-10-08 01-07-31](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/0be9af6b-9976-43b0-af1d-afdddbba33f7)
+
+12. For security reasons, install and configure SSH on the server and clients, SSH login should 
+use RSA keys instead of the password authentication
+
+  on the server we will need to sudo apt install openssh-server and do the following commands after creating a RSA key
+
+  ![Screenshot from 2023-10-09 17-18-21](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/a541f08c-6bee-4c90-b8ab-6f76033d920f)
+
+  now on the clients we will install the openssh-client and create a RSA key and do the following
 
   
+
+
+
+
 
 
