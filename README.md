@@ -135,6 +135,31 @@ for proactive management and monitoring.
 10. Install and configure Postfix on server1, so users can send and receive emails using Round 
 Cube open-source software
 
+so first what we do is sudo apt install postfix and set it as server1.ddp.is then what we will do is edit the conf file like so
+
+![Screenshot from 2023-10-13 11-19-10](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/78e40067-9c97-4b57-80f0-95e876edc912)
+
+  next step will be to install dovecot and it's dependencies and now we will need to edit a lot of config files like so
+
+  ![Screenshot from 2023-10-13 11-20-51](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/05f74f0b-e0e1-4a7a-8ce1-c17b7ce4058c)
+  
+  ![Screenshot from 2023-10-13 11-22-51](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/95eec9b5-cfa8-4bf6-bce1-5e9fd92bb454)
+
+  now we need to install roundcube and what we need to do is specify what database we want to use in the roundcube config like so
+
+  ![Screenshot from 2023-10-13 11-24-36](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/6c866597-27af-40a3-bbc7-c7f28b285b0f)
+
+  and then we can access roundcube and use our designated domain like user@server1.ddp.is or user@ddp.is
+
+  ![Screenshot from 2023-10-07 23-31-34](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/bf661057-2fdc-4428-a59f-ee045aef449d)
+
+11. Install and configure shared printers for each group, only users that belong to the group 
+should print only, accept IT and Management groups should print and manage the printers.
+
+ 
+
+
+
   
 
 
