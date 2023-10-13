@@ -186,10 +186,11 @@ use RSA keys instead of the password authentication
 ![Screenshot 2023-10-10 144720](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/38515134-3a4f-48fb-8982-cfe4857cb2b5)
 
     
-  
+13. All unused ports should be closed, use NMAP for testing.
 
+  so on the server we will sudo apt install nmap 
+  and to check on our ports we will nmap 192.168.100.10 i.e. our server ip
 
+  ![Screenshot from 2023-10-09 17-36-40](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/a6d1b4c4-52bc-4c7c-ab61-5f48ba3cd2d1)
 
-
-
-
+  as we can see our server has only the ports we require open and keeps our server secure
