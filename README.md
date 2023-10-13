@@ -181,7 +181,7 @@ use RSA keys instead of the password authentication
 
   now on the clients we will install the openssh-client and create a RSA key and do the following
   ssh-copy-id server1@192.168.100.10
-  and we will get this
+  and now we can ssh to the server without the need for password
   
 ![Screenshot 2023-10-10 144720](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/38515134-3a4f-48fb-8982-cfe4857cb2b5)
 
