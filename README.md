@@ -98,7 +98,8 @@ Friday
 
 next what we want to do is make our bash back up script that backups every user directory on the server here is how that would look like
 
-![Screenshot from 2023-10-13 08-41-05](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/7230a893-3a14-4660-9c0e-aa86817eac01)
+![Screenshot from 2023-10-13 08-42-48](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/df1e1d54-d857-41f6-b1d5-3ce966f341a1)
+
 
 
 
