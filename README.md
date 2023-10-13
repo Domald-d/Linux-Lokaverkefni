@@ -107,6 +107,11 @@ synchronize the time of the clients.
 
   ![Screenshot from 2023-10-13 09-02-36](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/e2092433-e1a3-466d-9853-1df59e463513)
 
-  and then we are going to change the conf file on the client as well like so
+  and then we are going to sudo apt install ntpdate and ntp and we are going to sync the time with our server but first we must edit the conf file to be like so
 
-  
+  ![Screenshot 2023-10-13 090810](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/72902104-e972-47de-897f-25125b941316)
+
+  and then we can check if our client has synced sucesfully with our server
+
+  ![Screenshot 2023-10-10 144826](https://github.com/Domald-d/Linux-Lokaverkefni/assets/78101890/add824f8-3034-452d-97fb-d48da73a84a6)
+
